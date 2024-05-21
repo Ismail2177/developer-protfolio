@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.name-clour{
+    color: tomato;
+}
+section div p{
+    width: 100%;
+    padding-left: 1%;
+    font-size: 120%;
+    padding-right: 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.div1-p{
+    width: 100%;
+    padding-left: 1%;
+    font-size: 120%;
+    padding-right: 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.div2-p{
+    width: 100%;
+    padding-left: 1%;
+    font-size: 120%;
+    padding-right: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+    display: flex;
+    padding-left: 50px;
+}
+.last-pera{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(80deg, orange, tomato );
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+    
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 5%;
+}
+.last-pera {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.last-pera div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    
+}
+.last-pera h3{
+    color: slateblue;
+}
+#full-stack{
+    border-left: 7px solid tomato;
+    padding-right: 20px;
+}
+#baby-web{
+    border-left: 7px solid burlywood;
+    padding-right: 20px;
+    border-image-slice: 4;
+   
+}
+footer{
+    text-align: center;
+}
